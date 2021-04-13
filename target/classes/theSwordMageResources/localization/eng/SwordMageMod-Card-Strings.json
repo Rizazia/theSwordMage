@@ -1,0 +1,376 @@
+{
+    "theSwordMage:Strike": {
+      "NAME": "Strike",
+      "DESCRIPTION": "Deal !D! damage."
+    },
+    "theSwordMage:Defend": {
+      "NAME": "Defend",
+      "DESCRIPTION": "Gain !B! Block."
+    },
+    "theSwordMage:CreateBasic": {
+        "NAME": "Create Basic",
+        "DESCRIPTION": "Create a theswordmage:basic_sword."
+    },
+    "theSwordMage:Cast":{
+        "NAME": "Cast",
+        "DESCRIPTION": "Evoke."
+    },
+    "theSwordMage:IgniteSword": {
+        "NAME": "Ignite Sword",
+        "DESCRIPTION": "Create a theswordmage:fire_sword."
+    },
+    "theSwordMage:FreezeSword": {
+        "NAME": "Freeze Sword",
+        "DESCRIPTION": "Create an theswordmage:ice_sword."
+    },
+    "theSwordMage:GatherEarth": {
+        "NAME": "Gather Earth",
+        "DESCRIPTION": "theswordmage:Create an theswordmage:earthen_sword."
+    },
+    "theSwordMage:VCreate":{
+        "NAME": "V-Create",
+        "DESCRIPTION": "Randomly theswordmage:create a theswordmage:vicious_sword, theswordmage:vice_sword, or a theswordmage:vampric_sword.",
+        "UPGRADE_DESCRIPTION": "theswordmage:Create a theswordmage:vicious_sword, theswordmage:vice_sword, or a theswordmage:vampric_sword."
+    },
+    "theSwordMage:GCreate":{
+        "NAME": "G-Create",
+        "DESCRIPTION": "Randomly theswordmage:create a theswordmage:gilded_sword, theswordmage:greed_sword, or a theswordmage:gusto_sword.",
+        "UPGRADE_DESCRIPTION": "theswordmage:Create a theswordmage:gilded_sword, theswordmage:greed_sword, or a theswordmage:gusto_sword."
+    },
+    "theSwordMage:ShatterShield":{
+        "NAME": "Shatter Shield",
+        "DESCRIPTION": "Gain !B! block. NL theswordmage:Shatter"
+    },
+    "theSwordMage:ShatterBlow":{
+        "NAME": "Shatter Blow",
+        "DESCRIPTION": "Deal !D! damage. NL theswordmage:Shatter"
+    },
+    "theSwordMage:ThrowSlash":{
+        "NAME": "Throw Slash",
+        "DESCRIPTION": "theswordmage:Create a theswordmage:basic_sword, then deal !D! damage."
+    },
+    "theSwordMage:ShatterStorm":{
+        "NAME": "Shatter Storm",
+        "DESCRIPTION": "theswordmage:Shatter all orbs X - 1 times. Then lose 1 focus for each time you theswordmage:shattered. NL Exhaust.",
+        "UPGRADE_DESCRIPTION": "theswordmage:Shatter all orbs X times. Then lose 1 focus for each time you theswordmage:shattered. NL Exhaust."
+    },
+    "theSwordMage:MirrorBlades":{
+        "NAME": "MirrorBlades",
+        "DESCRIPTION": "Ethereal. NL The passive effects of swords is activated an additional time."
+    },
+    "theSwordMage:FrostStrike":{
+        "NAME": "Frost Strike",
+        "DESCRIPTION": "Deal !D! damage. NL theswordmage:Technique: NL theswordmage:Ice_Sword NL gain !B! block.",
+        "UPGRADE_DESCRIPTION": "Deal !D! damage. NL theswordmage:Technique: NL theswordmage:Ice_Sword NL gain !B! block, otherwise theswordmage:create an theswordmage:ice_sword."
+    },
+    "theSwordMage:FlameStrike":{
+        "NAME": "Flame Strike",
+        "DESCRIPTION": "Deal !D! damage. NL theswordmage:Technique: NL theswordmage:Fire_Sword NL apply !M! vulnerable.",
+        "UPGRADE_DESCRIPTION": "Deal !D! damage. NL theswordmage:Technique: NL theswordmage:Fire_Sword NL apply !M! vulnerable otherwise theswordmage:create a theswordmage:fire_sword."
+    },
+    "theSwordMage:DustStrike":{
+        "NAME": "Dust Strike",
+        "DESCRIPTION": "Deal !D! damage. NL theswordmage:Technique: NL theswordmage:Earthen_Sword NL apply !M! weak.",
+        "UPGRADE_DESCRIPTION": "Deal !D! damage. NL theswordmage:Technique: theswordmage:Earthen_Sword NL apply !M! weak, otherwise theswordmage:create an theswordmage:earthen_sword."
+    },
+    "theSwordMage:ViciousStrike":{
+        "NAME": "Vicious Strike",
+        "DESCRIPTION": "Deal !D! damage. NL theswordmage:Technique: NL theswordmage:Vicious_Sword , deal !D! damage again.",
+        "UPGRADE_DESCRIPTION": "Deal !D! damage. NL theswordmage:Technique: NL theswordmage:Vicious_Sword , deal !D! damage again, otherwise theswordmage:create a theswordmage:vicious_sword."
+    },
+    "theSwordMage:RapidStrike":{
+        "NAME": "Rapid Strike",
+        "DESCRIPTION": "Deal !D! damage for each strike in your deck."
+    },
+    "theSwordMage:Parry":{
+        "NAME": "Parry",
+        "DESCRIPTION": "If enemy intends to attack, inflict !M! weak and gain !B! block. Discard a random card.",
+        "UPGRADE_DESCRIPTION": "If enemy intends to attack, inflict !M! weak and gain !B! block. Discard a card."
+    },
+    "theSwordMage:BloodFusion":{
+        "NAME": "Blood Fusion",
+        "DESCRIPTION": "Create a theswordmage:vampric_sword. Then lose !M! HP."
+    },
+    "theSwordMage:PrepareCast":{
+        "NAME": "Prepare Cast",
+        "DESCRIPTION": "Gain !M! orb slot"
+    },
+    "theSwordMage:ManaRefinement":{
+        "NAME": "Mana Refinement",
+        "DESCRIPTION": "Permenetly upgrade a card in your hand. NL Fleeting.",
+        "UPGRADE_DESCRIPTION": "Permenetly upgrade a card you own. NL Fleeting."
+    },
+    "theSwordMage:ManaStrike":{
+        "NAME": "Mana Strike",
+        "DESCRIPTION": "Deal !D! damage. theswordmage:Create !M! theswordmage:sapped theswordmage:basic_sword (s) with this card. Can be upgraded any number of times."
+    },
+    "theSwordMage:ImpaleSword":{
+        "NAME": "Impale Sword",
+        "DESCRIPTION": "theswordmage:Technique NL Deal damage equal to the passive amount of your rightmost sword and evoke it. NL Exhaust. NL theswordmage:Unswordable",
+        "UPGRADE_DESCRIPTION": "theswordmage:Technique NL Deal damage equal to the passive amount of your rightmost sword and evoke it. NL theswordmage:Unswordable"
+    },
+    "theSwordMage:IgniSlash":{
+        "NAME": "Igni Slash",
+        "DESCRIPTION": "theswordmage:Technique: theswordmage:fire_sword NL Deal !D! damage and evoke your rightmost theswordmage:fire_sword."
+    },
+    "theSwordMage:PoweredSlash":{
+        "NAME": "Powered Slash",
+        "DESCRIPTION": "Deal !D! damage. NL Damage is increased by !M! for each unique buff on yourself.",
+        "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Damage is increased by !M! for each buff stack on yourself."
+    },
+    "theSwordMage:WildCast":{
+        "NAME": "Wild Cast",
+        "DESCRIPTION": "Deal !D! damage. theswordmage:Create a random sword."
+    },
+    "theSwordMage:ManaCore":{
+        "NAME": "Mana Core",
+        "DESCRIPTION": "theswordmage:Core !D! NL Gain !M! strength."
+    },
+    "theSwordMage:BurningCore":{
+        "NAME": "Burning Core",
+        "DESCRIPTION": "theswordmage:Core !D! NL Deal !D! damage to all enemies. NL If this card is in your hand at the end your turn, shuffle !M! burn into your deck."
+    },
+    "theSwordMage:FrozenCore":{
+        "NAME": "Frozen Core",
+        "DESCRIPTION": "theswordmage:Core !D! NL Gain !B! Block. NL If this card is in your hand at the end of your turn, become fragile for !M! turns."
+    },
+    "theSwordMage:StoneCore":{
+        "NAME": "Stone Core",
+        "DESCRIPTION": "theswordmage:Core !D! NL Gain !M! intangible. NL If this card is in your hand at the end of your turn, shuffle !M! slimed into your deck."
+    },
+    "theSwordMage:AilingCore":{
+        "NAME": "Ailing Core",
+        "DESCRIPTION": "theswordmage:Core !D! NL All enemies gain !M! weak and vulnerable. NL If this card is in your hand at the end of your turn, shuffle !M! decay into your deck."
+    },
+    "theSwordMage:GreedyCore":{
+        "NAME": "Greedy Core",
+        "DESCRIPTION": "theswordmage:Core !D! NL theswordmage:Create a theswordmage:greed_sword using theswordmage:sapped copy of this card. NL If this card is in your hand at the end of your turn, shuffle a Regret into your deck."
+    },
+    "theSwordMage:GildedCore":{
+        "NAME": "Gilded Core",
+        "DESCRIPTION": "theswordmage:Core !D! NL theswordmage:Create a theswordmage:gilded_sword using a theswordmage:sapped copy of this card. NL If this card is in your hand at the end of your turn, shuffle a Pride into your deck."
+    },
+    "theSwordMage:StormingCore":{
+        "NAME": "Storming Core",
+        "DESCRIPTION": "theswordmage:Core !D! NL theswordmage:Create a theswordmage:gusto_sword using a theswordmage:sapped copy of this card. NL If this card is still in your hand at the end of your turn, shuffle a normality into your deck."
+    },
+    "theSwordMage:DangerousCore":{
+        "NAME": "Dangerous Core",
+        "DESCRIPTION": "theswordmage:Core !D! NL theswordmage:Create a theswordmage:vicious_sword using a theswordmage:sapped copy of this card and deal !D! damage to all enemies. NL If this card is in your hand at the end of your turn, take !M! damagae."
+    },
+    "theSwordMage:PulsatingCore":{
+        "NAME": "Pulsating Core",
+        "DESCRIPTION": "theswordmage:Core !D! NL Deal !M! damage to all enemies and heal for the damage dealt. NL If this card is in your hand at the end of the turn, shuffle a pain into your deck."
+    },
+    "theSwordMage:MirrorCore":{
+        "NAME": "Mirror Core",
+        "DESCRIPTION": "theswordmage:Core !D! NL Speacial core used when other cores duplicate themselves."
+    },
+    "theSwordMage:StableCore":{
+        "NAME": "Stable Core",
+        "DESCRIPTION": "Retain NL theswordmage:Core !D!. Swords made by this card are theswordmage:sapped.",
+        "UPGRADE_DESCRIPTION": "Retain NL theswordmage:Core !D!."
+    },
+    "theSwordMage:CommonCore":{
+        "NAME": "Common Core",
+        "DESCRIPTION": "theswordmage:Core !D! NL Increase your orb slots by !M!."
+    },
+    "theSwordMage:DrainLife":{
+        "NAME": "Drain Life",
+        "DESCRIPTION": "Deal !D! damage. NL theswordmage:Create a theswordmage:sapped theswordmage:vampric_sword with this card."
+    },
+    "theSwordMage:DrainMana":{
+        "NAME": "Drain Mana",
+        "DESCRIPTION": "Deal !D! damage to all enemies. NL theswordmage:Create 2 theswordmage:sapped theswordmage:basic_swords with this card."
+    },
+    "theSwordMage:DrainStrength":{
+        "NAME": "Drain Strength",
+        "DESCRIPTION": "Deal !D! damage. Target loses !M! strength and you gain that much strength until the end of the turn.",
+        "UPGRADE_DESCRIPTION": "Deal !D! damage. Target loses !M! strength and you gain that much strength until the end of the turn. If this kills an enemy, the strength buff lasts for the rest of combat."
+    },
+    "theSwordMage:SofteningStrikes":{
+        "NAME": "Softening Strikes",
+        "DESCRIPTION": "Strike. NL Deal !D! damage !M! times."
+    },
+    "theSwordMage:Cauterize":{
+        "NAME": "Cauterize",
+        "DESCRIPTION": "theswordmage:Technique: theswordmage:fire_sword NL Heal !M! health and reduce your max health by !theSwordMage:SecondMagic!. NL Exhaust"
+    },
+    "theSwordMage:Glaciate":{
+        "NAME": "Glaciate",
+        "DESCRIPTION": "theswordmage:Technique: theswordmage:ice_sword NL Gain !B! block. NL (Block is equal to half of your non theswordmage:ice_sword swords' passive amount.)",
+        "UPGRADE_DESCRIPTION": "theswordmage:Technique: theswordmage:ice_sword NL Gain !B! block. NL (Block is equal to half of your swords' passive amount.)"
+    },
+    "theSwordMage:IcicleSpears":{
+        "NAME": "Icicle Spears",
+        "DESCRIPTION": "theswordmage:Technique: theswordmage:ice_sword NL Each of your theswordmage:ice_swords deal damage equal to it's passive amount, ignoring thorns, and not affected by buffs/debuffs. NL theswordmage:Unswordable"
+    },
+    "theSwordMage:CoreStabilization":{
+        "NAME": "Core Stabilization",
+        "DESCRIPTION": "The end of turn effect of theswordmage:cores is not activated.",
+        "UPGRADE_DESCRIPTION": "Inate NL The end of turn effect of theswordmage:cores is not activated."
+    },
+    "theSwordMage:ShatteringFragments":{
+        "NAME": "Shattering Fragments",
+        "DESCRIPTION": "Gain 1 Focus whenever you theswordmage:shatter a sword. (Includes evoking theswordmage:sapped orbs)"
+    },
+    "theSwordMage:ExperiencedCutting":{
+        "NAME": "Experienced Cutting",
+        "DESCRIPTION": "Gain 1 strength whenever you attack 5 times."
+    },
+    "theSwordMage:HardHits":{
+        "NAME": "Hard Hits",
+        "DESCRIPTION": "theswordmage:Technique: theswordmage:earthen_sword NL Deal !D! for each theswordmage:earthen_sword you have channeled.",
+        "UPGRADE_DESCRIPTION": "theswordmage:Technique: theswordmage:earthen_sword NL Deal !D! for each theswordmage:earthen_sword you have channeled +1."
+    },
+    "theSwordMage:BladeBlocking":{
+        "NAME": "Blade Blocking",
+        "DESCRIPTION": "You gain/lose 1 Dexterity for each sword you have channeled."
+    },
+    "theSwordMage:ShapeCore":{
+        "NAME": "Shape Core",
+        "DESCRIPTION": "theswordmage:Create a theswordmage:basic_sword NL If a theswordmage:core is chosen, create a sword of a matching type instead.",
+        "UPGRADE_DESCRIPTION": "theswordmage:Create 2 theswordmage:basic_swords NL If a theswordmage:core is chosen, create a sword of a matching type instead."
+    },
+    "theSwordMage:RainbowSlash":{
+        "NAME": "Rainbow Slash",
+        "DESCRIPTION": "Deal !D! damage. Repeat for each unique sword type you have channeled."
+    },
+    "theSwordMage:HeavySlash":{
+        "NAME": "Heavy Slash",
+        "DESCRIPTION": "Deal !D! damage. Swords made using this card will be theswordmage:sapped.",
+        "UPGRADE_DESCRIPTION": "Deal !D! damage."
+    },
+    "theSwordMage:VoidHeat":{
+        "NAME": "Void Heat",
+        "DESCRIPTION": "theswordmage:Create theswordmage:Ice_Sword NL Inflict all enemies with !M! vulnerable."
+    },
+    "theSwordMage:StrikerForm":{
+        "NAME": "Striker Form",
+        "DESCRIPTION": "At the start of your turn, play a random strike that is in your deck.",
+        "UPGRADE_DESCRIPTION": "Innate NL At the start of your turn, play a random strike that is in your deck."
+    },
+    "theSwordMage:MageForm":{
+        "NAME": "Mage Form",
+        "DESCRIPTION": "Whenever you theswordmage:create, gain block equal the passive value of the sword.",
+        "UPGRADE_DESCRIPTION": "Innate NL Whenever you theswordmage:create, gain block equal the passive value of the sword."
+    },
+    "theSwordMage:MoonDrop":{
+        "NAME": "Moon Drop",
+        "DESCRIPTION": "Exhaust NL Draw !M! card(s). Gain Moon Charge."
+    },
+    "theSwordMage:MoonlitStrike":{
+        "NAME": "Moonlit Strike",
+        "DESCRIPTION": "Deal !D! damage. Add !M! Moon Drop(s) to you discard pile."
+    },
+    "theSwordMage:UnderNight":{
+        "NAME": "Under Night",
+        "DESCRIPTION": "Gain !B! block. Add !M! Moon Drops to your discard pile. NL Exhaust"
+    },
+    "theSwordMage:BloodMoonSlash":{
+        "NAME": "Blood Moon Slash",
+        "DESCRIPTION": "theswordmage:Technique theswordmage:Vampric_Sword NL Deal !D! damage. Restore !M! health. Add !theSwordMage:SecondMagic! Moon Drop(s) to your discard pile. NL Exhaust"
+    },
+    "theSwordMage:LunarProtection":{
+        "NAME": "Lunar Protection",
+        "DESCRIPTION": "Whenever you play a Moon Drop gain 3 block.",
+        "UPGRADE_DESCRIPTION": "Inate NL Whenever you play a Moon Drop gain 3 block."
+    },
+    "theSwordMage:MoonsBlessing":{
+        "NAME": "Moon's Blessing",
+        "DESCRIPTION": "Shuffle !M! Moon Drop(s) into your discard pile."
+    },
+    "theSwordMage:LunarRituals":{
+        "NAME": "Lunar Rituals",
+        "DESCRIPTION": "Whenever you play a Moon Drop gain 1 temporary Strength, Dexterity, and Focus."
+    },
+    "theSwordMage:ThroughoutNight":{
+        "NAME": "Throughout Night",
+        "DESCRIPTION": "Deal !D! damage for each Moon Drop in your hand, deck, or discard. Shuffle !M! Moon Drop(s) into your discard pile."
+    },
+    "theSwordMage:EndlessNight":{
+        "NAME": "Endless Night",
+        "DESCRIPTION": "At the start of each turn, add a Moon Drop into your discard pile.",
+        "UPGRADE_DESCRIPTION": "Inate NL At the start of each turn, add a Moon Drop into your discard pile."
+    },
+    "theSwordMage:ZSlash":{
+        "NAME": "Z-Slash",
+        "DESCRIPTION": "Deal !D! damage 3 times."
+    },
+    "theSwordMage:SkipSlash":{
+        "NAME": "Skip Slash",
+        "DESCRIPTION": "Deal !D! damage. NL theswordmage:Skip Evoke"
+    },
+    "theSwordMage:RepellentHack":{
+        "NAME": "Repellent Hack",
+        "DESCRIPTION": "Deal !D! damage twice. NL theswordmage:Technique theswordmage:Vice_Sword NL Gain !B! block for each stack of weak or vulnerable on the target.",
+        "UPGRADE_DESCRIPTION": "Deal !D! damage twice. NL theswordmage:Technique theswordmage:Vice_Sword NL Gain !B! block for each stack of weak or vulnerable on the target, otherwise theswordmage:create theswordmage:vice_sword."
+    },
+    "theSwordMage:DragDown":{
+        "NAME": "Drag Down",
+        "DESCRIPTION": "Deal !D! damage. The target loses !M! strength for this turn. NL Exhaust"
+    },
+    "theSwordMage:Vault":{
+        "NAME": "Vault",
+        "DESCRIPTION": "Gain !B! block. NL theswordmage:Skip Evoke"
+    },
+    "theSwordMage:FinalSlash":{
+        "NAME": "Final Slash",
+        "DESCRIPTION": "Deal !D! damage and theswordmage:Skip evoke X times. NL (Skip targets your last orb slot and swords only give one copy of their card)"
+    },
+    "theSwordMage:ElementalCut":{
+        "NAME": "Elemental Cut",
+        "DESCRIPTION": "Deal !D! damage. NL Randomly theswordmage:create a theswordmage:fire_sword, theswordmage:ice_sword, or a theswordmage:earthen_sword."
+    },
+    "theSwordMage:ElementalWall":{
+        "NAME": "Elemental Wall",
+        "DESCRIPTION": "Gain !B! block. NL Randomly theswordmage:create a theswordmage:fire_sword, theswordmage:ice_sword, or a theswordmage:earthen_sword."
+    },
+    "theSwordMage:DodgeRoll":{
+        "NAME": "Dodge Roll",
+        "DESCRIPTION": "Gain !B! block. Discard a random card.",
+        "UPGRADE_DESCRIPTION":  "Gain !B! block. Discard a card."
+    },
+    "theSwordMage:SpamDodgeRoll":{
+        "NAME": "Spam Dodge Roll",
+        "DESCRIPTION": "Gain !B! block X times. NL Discard your hand.",
+        "UPGRADE_DESCRIPTION": "Gain !B! block X+1 times. NL Discard your hand."
+    },
+    "theSwordMage:Tremor":{
+        "NAME": "Tremor",
+        "DESCRIPTION": "Inflict !M! vulnerable on all enemies. NL theswordmage:Technique theswordmage:Earthen_Sword NL Also inflict !M! weak.",
+        "UPGRADE_DESCRIPTION": "Inflict !M! vulnerable on all enemies. NL theswordmage:Technique theswordmage:Earthen_Sword NL Also inflict !M! weak, otherise theswordmage:create an theswordmage:earthen_sword."
+    },
+    "theSwordMage:EarthSpire":{
+        "NAME": "Earth Spire",
+        "DESCRIPTION": "Deal !D! damage. NL theswordmage:Technique theswordmage:Earthen_Sword Gain !D! block (affected by strength modifiers).",
+        "UPGRADE_DESCRIPTION": "Deal !D! damage. NL theswordmage:Technique theswordmage:Earthen_Sword Gain !D! block (affected by strength modifiers), otherwise theswordmage:create an theswordmage:earthen_sword."
+    },
+    "theSwordMage:FireWall":{
+        "NAME": "Fire Wall",
+        "DESCRIPTION": "Gain !B! block. NL theswordmage:Technique theswordmage:Fire_Sword NL Whenever you are attacked this turn, deal !D! damage to the attacker.",
+        "UPGRADE_DESCRIPTION": "Gain !B! block. NL theswordmage:Technique theswordmage:Fire_Sword NL Whenever you are attacked this turn, deal !D! damage to the attacker, otherwise theswordmage:create a theswordmage:fire_sword."
+    },
+    "theSwordMage:Flamethrower":{
+        "NAME": "Flamethrower",
+        "DESCRIPTION": "Deal !D! damage. NL theswordmage:Technique theswordmage:Fire_Sword NL damage all enemies instead.",
+        "UPGRADE_DESCRIPTION": "Deal !D! damage. NL theswordmage:Technique theswordmage:Fire_Sword NL damage all enemies instead, otherwise theswordmage:create a theswordmage:fire_sword."
+    },
+    "theSwordMage:NightFreeze":{
+        "NAME": "Night Freeze",
+        "DESCRIPTION": "Gain !B! block and add a Moon Drop into your discard pile. NL theswordmage:Technique theswordmage:Ice_Sword NL Repeat this effect.",
+        "UPGRADE_DESCRIPTION": "Gain !B! block and add a Moon Drop into your discard pile. NL theswordmage:Technique theswordmage:Ice_Sword NL Repeat this effect, otherwise theswordmage:create an theswordmage:ice_sword."
+    },
+    "theSwordMage:TillDeath":{
+        "NAME": "Till Death",
+        "DESCRIPTION": "theswordmage:Technique theswordmage:Vicious_Sword NL Deal !D! to an enemy then deal half to yourself and gain !M! strength. Repeat until until the you or the enemy dies."
+    },
+    "theSwordMage:StrikeTheMoon":{
+        "NAME": "Strike the Moon",
+        "DESCRIPTION": "Deal !D! damage and add !M! Moon Drops to your discard pile. NL theswordmage:Shatter"
+    },
+    "theSwordMage:DanceUnderTheMoon":{
+        "NAME": "Dance Under the Moon",
+        "DESCRIPTION": "At the start of your turn, move a Moon Drop from your discard/draw pile to your hand."
+    }
+}

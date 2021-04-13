@@ -1,0 +1,178 @@
+[
+    {
+        "NAMES": [
+            "Technique",
+            "technique",
+            "Technique:",
+            "technique:"
+        ],
+        "DESCRIPTION": "Effects with this word require any sword or specific sword listed next to this keyword to be channeled. NL If a card starts with this word, it is unplayable unless this requirment is met."
+    },
+    {
+        "NAMES": [
+            "Create",
+            "create"
+        ],
+        "DESCRIPTION": "Exhaust an attack in hand to channel a sword. NL Different cards create different swords. NL When the sword is evoked, the exhausted attack is returned to your hand and it's energy cost become 0 for this turn."
+    },
+    {
+        "NAMES": [
+            "Core",
+            "core",
+            "cores"
+        ],
+        "DESCRIPTION": "An unplayable attack that activates its effect when used to create a sword. The strength of the core is beside this keyword. NL NL (Buffs and debuffs the player have no affect on how much damage/block is done by cores.)"
+    },   
+    {
+        "NAMES": [
+            "Shatter",
+            "shatter",
+            "shattered"
+        ],
+        "DESCRIPTION": "Evoke, but you do not retrieve the card used to create evoked swords."
+    },
+    {
+        "NAMES": [
+            "Unswordable",
+            "Unswordable",
+            "Unswordable.",
+            "unswordable",
+            "unswordable."
+        ],
+        "DESCRIPTION": "This attack cannot be used to create a sword."
+    },
+    {
+        "PROPER_NAME": "Basic Sword",
+        "NAMES": [
+            "Basic Sword",
+            "basic sword",
+            "basic_sword",
+            "basic_swords",
+            "Basic_Sword"
+        ],
+        "DESCRIPTION": "Deals damage to the front most enemy at the end of your turn and damages all enemies when evoked. NL NL Passive damage = exhausted attack's damage / 2. NL Evoked damage = the exhausted attacks damage."
+    },
+    {
+        "PROPER_NAME": "Fire Sword",
+        "NAMES": [
+            "Fire Sword",
+            "fire sword",
+            "fire_sword",
+            "Fire_Sword",
+            "fire_sword."
+        ],
+        "DESCRIPTION": "Deals damage to an enemy randomly on end of turn. When evoked it deals increased damge to random enemies twice and return the attack used to create this sword at 0 energy cost for this turn. NL NL Passive damage = exhausted attack's damage / 2. NL Evoked damage = the exhausted attacks damage."
+    },
+    {
+        "PROPER_NAME": "Ice Sword",
+        "NAMES": [
+            "Ice Sword",
+            "ice sword",
+            "ice_sword",
+            "Ice_Sword",
+            "ice_sword.",
+            "ice_swords"
+        ],
+        "DESCRIPTION": "Gain block at the end of your turn. Evoking increasing the amount of block gained and returns the attack used to create this sword at 0 energy cost for this turn. NL NL Passive block = exhausted attack's damage / 2. NL Evoked block = the exhausted attacks damage."
+    },
+    {
+        "PROPER_NAME": "Earthen Sword",
+        "NAMES": [
+            "Earthen Sword",
+            "earthen sword",
+            "earthen_sword",
+            "Earthen_Sword",
+            "earthen_sword."
+        ],
+        "DESCRIPTION": "Deals damage to a random enemy and gains block at the same. When evoked deals damage to EVERYONE before gaining block and returns the attack used to create this sword at 0 cost for this turn. NL NL Passive = exhausted attack's damage/block * 0.4. NL Evoked damage = the exhausted attacks damage * 0.8 then gain that much block."
+    },
+    {
+        "PROPER_NAME": "Gilded Sword",
+        "NAMES": [
+            "Gilded Sword",
+            "gilded sword",
+            "gilded_sword",
+            "Gilded_Sword"
+        ],
+        "DESCRIPTION": "Generates gold every turn. When evoked deals damage to all enemies based on your gold. This sword always shatters. NL NL Passive = exhausted attack's damage * 0.1. NL Evoked damage = your gold * 0.3."
+    },
+    {
+        "PROPER_NAME": "Gusto Sword",
+        "NAMES":[
+            "Gusto Sword",
+            "gusto sword",
+            "Gusto_Sword",
+            "gusto_sword"
+        ],
+        "DESCRIPTION": "Generates extra energy each turn and resets your energy to its max value when evoked. This sword always shatters. NL NL Passive energy = exhausted attack's damage * 0.1."
+    },
+    {   
+        "PROPER_NAME": "Greed Sword",
+        "NAMES":[
+            "Greed Sword",
+            "greed sword",
+            "greedy sword",
+            "greed_sword",
+            "Greed_Sword"
+        ],
+        "DESCRIPTION": "Draws additional cards at the start of your turn in exchange of health. Lost health is restored when evoked. This sword always shatters. NL NL Passive energy = exhausted attack's damage * 0.1"
+    },
+    {
+        "PROPER_NAME": "Vampric Sword",
+        "NAMES":[
+            "Vampric Sword",
+            "vampric sword",
+            "vampric_sword",
+            "Vampric_Sword",
+            "vampric_sword."
+        ],
+        "DESCRIPTION": "Deals damage and restores health based on its damage. NL NL Passive damage = exhausted attack's damage * 0.5. NL Evoked damage = the exhausted attacks damage * 0.75."
+    },
+    {
+        "PROPER_NAME": "Vice Sword",
+        "NAMES":[
+            "Vice Sword",
+            "vice sword",
+            "Vice_Sword",
+            "vice_sword"
+        ],
+        "DESCRIPTION": "Inflicts enemies with weak and vulnearble. NL NL Passive debuffs inflicted = exhausted attack's damage * 0.25. NL Evoked debuffs inflicted = the exhausted attacks damage * 0.5."
+    },
+    {
+        "PROPER_NAME": "Vicious Sword",
+        "NAMES": [
+            "Vicious Sword",
+            "vicious sword",
+            "Vicious_Sword",
+            "vicious_sword"
+        ],
+        "DESCRIPTION": "Randomly damages ANY combatant passivly and damages ALL combatans on evoke. You gain strength whenever you hit yourself with a vicious sword. NL NL Passive&Evoke damage = exhausted attack's damage / 2. NL Passive activations = exhausted attack's damage * 0.6 (min 2)."
+    },
+    {
+        "NAMES": [
+            "Sap",
+            "Sapped",
+            "sap",
+            "sapped",
+            "sapped."
+        ],
+        "DESCRIPTION": "The sword created by this card will shatter on evoke."
+    },       
+    {
+        "PROPER_NAME": "Sap All",
+        "NAMES": [
+            "Sap All",
+            "Sap_All"
+        ],
+        "DESCRIPTION": "All currently channeled sword will shatter when they are evoked."
+    },
+    {
+        "NAMES": [
+            "Skip",
+            "Skip:",
+            "skip",
+            "skip:"
+        ],
+        "DESCRIPTION": "Any effect that interacts with orbs on this card will ignore your first orb slot and use any orb in your second orb slot unless a specific orb slot is mentioned."
+    }
+]

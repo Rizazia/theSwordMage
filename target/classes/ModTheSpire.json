@@ -1,0 +1,12 @@
+{
+  "modid": "SwordMage",
+  "name": "The Sword Mage",
+  "author_list": ["NotGremious"],
+  "credits": "Basemod, ModTheSpire, #modding",
+  "description": "Adds the Sword Mage as a playable class.",
+  "version": "2.2",
+  "sts_version": "12-20-2020",
+  "mts_version": "3.8.0",
+  "dependencies": ["basemod", "stslib"],
+  "update_json": ""
+}

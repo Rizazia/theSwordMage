@@ -1,0 +1,105 @@
+{
+  "theSwordMage:DefaultOrb": {
+    "NAME": "Default Orb",
+    "DESCRIPTION": [
+      "[#FFFF00]Passive: At the start of your turn, draw [#0000FF]",
+      " card.",
+      " cards.",
+      " NL [#FFFF00]Evoke: Deal [#0000FF]",
+      " damage to all enemies. NL NL Formed by: "
+    ]
+  },
+  "theSwordMage:BasicSword": {
+        "NAME": "Basic Sword",
+        "DESCRIPTION": [
+            "[#FFFF00]Passive: Deal [#0000FF]",
+            " to the front enemy when you end your turn.",
+            " NL [#FFFF00]Evoke: Deal [#0000FF]",
+            " damage to all enemies.  NL NL Formed by: "
+        ]
+  },
+  "theSwordMage:FireSword":{
+        "NAME": "Fire Sword",
+        "DESCRIPTION": [
+            "[#FFFF00]Passive: Deal [#0000FF]",
+            " to a random enemy when you end your turn.",
+            " NL [#FFFF00]Evoke: Deal [#0000FF]",
+            " damage to a random enemy twice.  NL NL Formed by: "
+        ]
+  },
+  "theSwordMage:IceSword": {
+        "NAME": "Ice Sword",
+        "DESCRIPTION": [
+            "[#FFFF00]Passive: Gain [#0000FF]",
+            " block when you end your turn.",
+            " NL [#FFFF00]Evoke: Gain [#0000FF]",
+            " block.  NL NL Formed by: "
+        ]
+  },
+  "theSwordMage:EarthenSword":{
+        "NAME": "Earthen Sword",
+        "DESCRIPTION": [
+            "[#FFFF00]Passive: Deal [#0000FF]",
+            " damage to a random enemy and gain the same amount of block",
+            " NL [#FFFF00]Evoke Deal [#0000FF]",
+            " damage to ALL combatants. Then gain [#0000FF]",
+            " block.  NL NL Formed by: "
+        ]
+  },
+  "theSwordMage:VampricSword": {
+        "NAME": "Vampric Sword",
+        "DESCRIPTION": [
+            "[#FFFF00]Passive: Deal [#0000FF]",
+            " damage to a random enemy and heal half that amount.",
+            " NL [#FFFF00]Evoke: Deal [#0000FF]",
+            " to all enemies and heal for [#0000FF]",
+            " HP for each enemy. NL NL Formed by: "
+        ]
+  },
+  "theSwordMage:ViceSword": {
+        "NAME": "Vice Sword",
+        "DESCRIPTION": [
+            "[#FFFF00]Passive: Randomly inflict a random enemy Weak or Vulnerable [#0000FF]",
+            " times at the start of your turn.",
+            " NL [#FFFF00]Evoke: Inflict Weak and Vulnerable to all enemies [#0000FF]",
+            " times. NL NL Formed by: "
+        ]
+  },
+  "theSwordMage:ViciousSword":{
+        "NAME": "Vicious Sword",
+        "DESCRIPTION": [
+            "[#FFFF00]Passive: Deal [#0000FF]",
+            " damage to ", 
+            " combatants chosen randomly at the end of your turn.",
+            " NL [#FFFF00]Evoke: Deal [#0000FF]",
+            " damage to all combatants. NL NL You take half the amount of damage and gain 1 [#FFFF00]strength whenever you hit yourself with this orb with either effect. NL NL Formed by: "
+        ]
+  },
+  "theSwordMage:GildedSword":{
+        "NAME": "Gilded Sword",
+        "DESCRIPTION": [
+            "[#FFFF00]Passive: Generate [#FFFF00]",
+            " [#FFFF00]gold at the start of your turn.",
+            " NL #Evoke: Deal [#FFFF00]",
+            " damage to all enemies.(20% of your current gold) NL (This sword always [#FFFF00]shatters on evoke) NL NL Formed by: "
+        ]
+  },
+  "theSwordMage:GreedSword": {
+        "NAME": "Greed Sword",
+        "DESCRIPTION": [
+            "[#FFFF00]Passive: Draw an extra #g",
+            " cards at the start of your turn and lose #r",
+            " HP for each card drawn.",
+            " NL [#FFFF00]Evoke: Restore ",
+            " HP (All the HP lost to this orb). NL (This sword always [#FFFF00]shatters on evoke) NL NL Formed by: "
+        ]
+  },
+  "theSwordMage:GustoSword":{
+        "NAME": "Gusto Sword",
+        "DESCRIPTION":[
+            "#yPassive: Gain [#FFFF00]",
+            " energy at the start of your turn.",
+            " NL #Evoke: Your energy becomes your max energy. NL (This sword always [#FFFF00]shatters on evoke) NL NL Formed by: "
+        ]
+  }
+}

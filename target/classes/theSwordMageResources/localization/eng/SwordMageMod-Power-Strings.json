@@ -1,0 +1,54 @@
+{
+    "theSwordMage:MirrorBladePower": {
+        "NAME": "Mirror Blades",
+        "DESCRIPTIONS": ["Passive effects of orbs activate an additional #b", " time.", " times."]
+    },
+    "theSwordMage:CoreStabilizationPower": {
+        "NAME": "Core Stabilization",
+        "DESCRIPTIONS": ["The end of turn effects of cores is not activated."]
+    },
+    "theSwordMage:ShatteringFragmentsPower":{
+        "NAME": "Shattering Fragments",
+        "DESCRIPTIONS": ["Gain #b", " #yFocus whenever you shatter a sword."]
+    },
+    "theSwordMage:ExperiencedCuttingPower":{
+        "NAME": "Experienced Cutting",
+        "DESCRIPTIONS": ["Gain #b", " #yStrength whennever you attack an enemy 5 times."]
+    },
+    "theSwordMage:BladeBlockingPower":{
+        "NAME": "Blade Blocking",
+        "DESCRIPTIONS": ["Gain/Lose #b", " #yDexterity whenever you channel/evoke (shatter included) a sword."]
+    },
+    "theSwordMage:StrikerFormPower":{
+        "NAME": "Striker Form",
+        "DESCRIPTIONS": ["A random strike is played from your deck at the start of your turn."]
+    },
+    "theSwordMage:MageFormPower":{
+        "NAME": "Mage Form",
+        "DESCRIPTIONS": ["Whenever you channel a sword, gain #yblock equal to its passive strength."]
+    },
+    "theSwordMage:MoonChargePower":{
+        "NAME": "Moon Charge",
+        "DESCRIPTIONS": ["Upon getting a second charge of this power, loose all stacks of this power and draw a card."]
+    },
+    "theSwordMage:LunarProtectionPower":{
+        "NAME": "Lunar Protection",
+        "DESCRIPTIONS": ["Gain #b", " block whenever you play a Moon Drop."]
+    },
+    "theSwordMage:LunarRitualsPower":{
+        "NAME": "Lunar Rituals",
+        "DESCRIPTIONS": ["Whenever you play a Moon Drop gain, #y", " #yStrength, #yFocus, and #yDexterity for the rest of the turn."]
+    },
+    "theSwordMage:EndlessNightPower":{
+        "NAME": "Endless Night",
+        "DESCRIPTIONS": ["Add #b", " Moon", " Drop", " Drops,", " to your discard pile at the start of your turn."]
+    },
+    "theSwordMage:DanceUnderTheMoonPower":{
+        "NAME": "Dance under the Moon",
+        "DESCRIPTIONS": ["At the start of your turn, add ", " Moon", " Drop", " Drops", " from your discard/draw pile to your hand. (Discarded cards have priority.)"]
+    },
+    "theSwordMage:OverloadPower":{
+        "NAME": "Overload",
+        "DESCRIPTIONS": ["Gain #r1 stack of this power each time you evoke a sword (excluding shatter). NL NL If your max orb slots equals the amount of Overload you have, any further evoking you do this turn is treated as shatter. NL NL Disapears at the start of your next turn."]
+    }
+}

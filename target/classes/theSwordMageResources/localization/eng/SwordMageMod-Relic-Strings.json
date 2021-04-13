@@ -1,0 +1,27 @@
+{
+  "theSwordMage:ManaControllerRelic":{
+        "NAME": "Mana Controller",
+        "FLAVOR": "Focus, channel, create.",
+        "DESCRIPTIONS": ["At the start of each battle, create a basic sword using a mana core. NL (Mana Core gives #b1 #ystrength when used to create sword, including this one.)"]
+  },
+  "theSwordMage:MoonSigilRelic":{
+        "NAME": "Moon Sigil",
+        "FLAVOR": "Study magic under the moon and gain its favor.",
+        "DESCRIPTIONS": ["At the end of each of your turns, add a Moon Drop into your discard pile."]
+  },
+  "theSwordMage:DaystrikerSwordRelic":{
+        "NAME": "Daystriker Sword",
+        "FLAVOR": "Train during the day and obtain power",
+        "DESCRIPTIONS": ["Once per turn, when you exhaust an attack, gain #b", " #ystength."]
+  },
+  "theSwordMage:MagicsBaneRelic":{
+        "NAME": "Magic's Bane",
+        "FLAVOR": "Forsake magic; attack.",
+        "DESCRIPTIONS": ["Gain [E] and #b", " strength. Loose the ability to create orbs."]
+  },
+  "theSwordMage:MadMagesChronicleRelic":{
+        "NAME": "Mad Mage's Chronicle",
+        "FLAVOR": "Forgo physicality, embrace magic.",
+        "DESCRIPTIONS": ["Loose #r", " #ystrength. The first time you evoke each turn, channel a copy of the evoked orb and then evoke."]
+  }
+}
