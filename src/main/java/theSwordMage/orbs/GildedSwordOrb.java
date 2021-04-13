@@ -51,7 +51,7 @@ public class GildedSwordOrb extends SwordBase {
     @Override
     public void applyFocus() {
         passiveAmount = basePassiveAmount;
-        evokeAmount = baseEvokeAmount = (int) (AbstractDungeon.player.gold * 0.2);
+        evokeAmount = baseEvokeAmount = (int) (AbstractDungeon.player.gold * 0.05);
         if (formBy != null) {
             description += formBy.name;
         }
@@ -60,7 +60,7 @@ public class GildedSwordOrb extends SwordBase {
     @Override
     public void onEvoke() {
         if (!AbstractDungeon.player.hasRelic(MagicsBaneRelic.ID)) {
-            AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(AbstractDungeon.player, DamageInfo.createDamageMatrix((int) (p.gold * 0.2), true, true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
+            AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(AbstractDungeon.player, DamageInfo.createDamageMatrix((int) (p.gold * 0.05), true, true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));
         }
     }
 
