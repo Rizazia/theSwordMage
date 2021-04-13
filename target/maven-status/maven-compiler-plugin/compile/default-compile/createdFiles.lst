@@ -27,7 +27,6 @@ theSwordMage\cards\GildedCore.class
 theSwordMage\cards\BloodMoonSlash.class
 theSwordMage\orbs\GustoSwordOrb.class
 theSwordMage\cards\ExperiencedCutting.class
-theSwordMage\cards\ManaRefinement.class
 theSwordMage\cards\StoneCore.class
 theSwordMage\cards\GreedyCore.class
 theSwordMage\orbs\BasicSwordOrb.class
@@ -114,7 +113,6 @@ theSwordMage\cards\HardHits.class
 theSwordMage\cards\ViciousStrike.class
 theSwordMage\powers\BladeBlockingPower.class
 theSwordMage\cards\DragDown.class
-theSwordMage\actions\ManaRefinementAction.class
 theSwordMage\powers\StrikerFormPower.class
 theSwordMage\cards\PoweredSlash.class
 theSwordMage\cards\FinalSlash.class

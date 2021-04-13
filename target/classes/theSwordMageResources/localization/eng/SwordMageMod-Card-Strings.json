@@ -95,11 +95,6 @@
         "NAME": "Prepare Cast",
         "DESCRIPTION": "Gain !M! orb slot"
     },
-    "theSwordMage:ManaRefinement":{
-        "NAME": "Mana Refinement",
-        "DESCRIPTION": "Permenetly upgrade a card in your hand. NL Fleeting.",
-        "UPGRADE_DESCRIPTION": "Permenetly upgrade a card you own. NL Fleeting."
-    },
     "theSwordMage:ManaStrike":{
         "NAME": "Mana Strike",
         "DESCRIPTION": "Deal !D! damage. theswordmage:Create !M! theswordmage:sapped theswordmage:basic_sword (s) with this card. Can be upgraded any number of times."

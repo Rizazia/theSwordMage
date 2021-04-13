@@ -124,7 +124,6 @@ public class TheSwordMage extends CustomPlayer {
         retVal.add(Defend.ID);
         retVal.add(CreateBasic.ID);
         retVal.add(Cast.ID);
-        retVal.add(ManaRefinement.ID);
 
         return retVal;
     }
