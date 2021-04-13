@@ -94,7 +94,7 @@
             "gilded_sword",
             "Gilded_Sword"
         ],
-        "DESCRIPTION": "Generates gold every turn. When evoked deals damage to all enemies based on your gold. This sword always shatters. NL NL Passive = exhausted attack's damage * 0.1. NL Evoked damage = your gold * 0.3."
+        "DESCRIPTION": "Generates gold every turn. When evoked deals damage to all enemies based on your gold. This sword always shatters. NL NL Passive = exhausted attack's damage * 0.1. NL Evoked damage = your gold * 0.05."
     },
     {
         "PROPER_NAME": "Gusto Sword",
